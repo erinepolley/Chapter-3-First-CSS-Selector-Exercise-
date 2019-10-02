@@ -19,11 +19,11 @@ a.disabled {
     color: yellow;
 }
 
-.parent > div > div:first-child {
+.parent > div > div:nth-child(1) {
     color: red;
 } 
 
-.parent > div > div:nth-child(3) {
+.parent div > div:nth-child(3) {
     color: blue;
 }
 
