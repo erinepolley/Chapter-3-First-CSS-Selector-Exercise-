@@ -27,14 +27,24 @@ a.disabled {
     color: blue;
 }
 
-.parent > div > div:first-child + h4 {
+.parent > div > h4:nth-child(2) {
     background-color: red;
 }
 
-.parent > div > div:nth-child(3) + h4 {
+.parent > div > h4:nth-child(4) {
     background-color: blue;
 }
 
-.grandparent h4 {
-    border: 1px;
+.grandparent > h4:nth-child(2) {
+    border: 1px solid black;
+    border-radius: 60px;
+}
+
+.promo {
+    font-weight: 900;
+    color: goldenrod;
+}
+
+input[type=text] {
+    height: 25px;
 }
