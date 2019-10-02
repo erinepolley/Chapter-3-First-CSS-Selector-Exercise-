@@ -1,0 +1,33 @@
+header {
+    border: 1px solid goldenrod; 
+}
+
+header li {
+    display: inline; 
+    margin: 15px; 
+}
+
+
+a > .disabled {
+    color: purple;
+}
+
+.disabled {
+    color: gray;
+}
+
+.active {
+    color: yellow;
+}
+
+.parent > h4 ~ div > div:first-child {
+    color: red;
+} 
+
+.parent > h4 ~ div > div:nth-child(3) {
+    color: blue;
+}
+
+.parent > h4 ~ div:nth-child(2) {
+    background-color: red;
+}
