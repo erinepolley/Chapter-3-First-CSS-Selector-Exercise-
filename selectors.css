@@ -7,13 +7,12 @@ header li {
     margin: 15px; 
 }
 
-
-a > .disabled {
-    color: purple;
-}
-
 .disabled {
     color: gray;
+}
+
+a.disabled {
+    color: purple;
 }
 
 .active {
