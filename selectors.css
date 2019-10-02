@@ -19,14 +19,22 @@ a.disabled {
     color: yellow;
 }
 
-.parent > h4 ~ div > div:first-child {
+.parent > div > div:first-child {
     color: red;
 } 
 
-.parent > h4 ~ div > div:nth-child(3) {
+.parent > div > div:nth-child(3) {
     color: blue;
 }
 
-.parent > h4 ~ div:nth-child(2) {
+.parent > div > div:first-child + h4 {
     background-color: red;
+}
+
+.parent > div > div:nth-child(3) + h4 {
+    background-color: blue;
+}
+
+.grandparent h4 {
+    border: 1px;
 }
